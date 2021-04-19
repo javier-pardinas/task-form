@@ -4,9 +4,6 @@ import Vue from 'vue';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 
-//when we use axios we axios.get('http://localhost:3000/todos'). 
-//This way we only have to do axios.get('/todos')
-//const baseUrl = 'http://localhost:3000';
+//when we use axios we do axios.get('url'). 
 
-//axios.defaults.baseURL = baseUrl;
 Vue.use(VueAxios, axios);

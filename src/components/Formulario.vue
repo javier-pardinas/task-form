@@ -45,7 +45,7 @@ export default{
                 this.text = response.data.text,
                 console.log(this.text)
             })
-            .cartch(e => console.log(e))
+            .catch(e => console.log(e))
         }
     }
 }
