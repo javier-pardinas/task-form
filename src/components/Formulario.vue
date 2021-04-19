@@ -1,11 +1,31 @@
 <template>
-<div class="formulario">
-    <h1 class="title">Aquí va el título {{ title }}</h1>
-    <p class="order">Orden: {{ order }}</p>
-    <p class="date">Fecha ultima revision: {{ date }}</p>
-    <p class="resume">Resumen: {{ resume }}</p>
-    <p class="text">Texto: {{ text }}</p>
-  </div>
+    <b-form>
+    <b-title>FORMULARIO</b-title>
+    <!--ORDEN-->
+        <b-form-group id="orden" label="Orden" label-for="orden">
+            <b-form-input>
+            </b-form-input>
+            <b-form-invalid-feedback>
+            This field is required
+            </b-form-invalid-feedback>
+        </b-form-group>
+    <!--FECHA ULTIMA REVISIÓN-->
+        <b-form-group id="fechaUltimaRevision" label="Fecha última Revisión" label-for="fechaUltimaRevision">
+            <b-form-input>
+            </b-form-input>
+            <b-form-invalid-feedback>
+            This field is required
+            </b-form-invalid-feedback>
+        </b-form-group>
+    <!--RESUMEN-->
+        <b-form-group id="resumen" label="Resumen" label-for="resumen">
+            <b-form-input>
+            </b-form-input>
+            <b-form-invalid-feedback>
+            This field is required
+            </b-form-invalid-feedback>
+        </b-form-group>
+    </b-form>
 </template>
 
 <script>
