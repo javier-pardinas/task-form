@@ -14,7 +14,6 @@ import axios from 'axios';
 export default{
     name: 'Formulario',
     components: {
-        DatePicker
     },
     data(){
         return{
